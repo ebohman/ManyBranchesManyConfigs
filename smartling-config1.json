@@ -12,9 +12,6 @@
     "resourceSets": [
         {
 
-//            "pathRegex"                 : "bylanglocale/(?<path>.*)-en\\.json",
-
-
             "pathRegex"                 : "bylanglocale/(?<path>.*)-en\\.json",
             "translationPathExpression" : "${path}_${locale}.${originalFile.extension}",
             "type"                      : "json"
