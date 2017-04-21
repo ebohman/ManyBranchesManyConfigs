@@ -5,7 +5,8 @@
         "cancel_btn": "Cancel",
         "ok_btn": "OK",
         "general_error_toast": "Error occurred.",
-        "end": "end"
+        "end": "end",
+        "hello":"world"
     },
     "int_header": {
         "nav_home": "Home",
