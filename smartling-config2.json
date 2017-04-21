@@ -1,0 +1,19 @@
+{
+    "locales" : [
+        {
+            "smartling"   : "zh-CN",
+            "application" : "Hans"
+        },
+        {
+            "smartling"   : "da-DK",
+            "application" : "dk"
+        }
+    ],
+    "resourceSets": [
+        {
+            "pathRegex"                 : "byregion/(?<path>.*)\\.json",
+            "translationPathExpression" : "/translated/${path}_${locale}.${originalFile.extension}",
+            "type"                      : "json"
+        }
+    ]
+}
